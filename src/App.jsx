@@ -27,7 +27,7 @@ function App() {
       alert('you lose')
      }
   
-  })
+  },[playerScore,computerScore])
 
 
   return (
